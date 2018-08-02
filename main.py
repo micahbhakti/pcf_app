@@ -16,7 +16,7 @@ app_instance = int(VCAP_APPLICATION['instance_index'])
 app_guid = VCAP_APPLICATION['application_id']
 app_name = VCAP_APPLICATION['application_name']
 
-content = '<h1>Hello World!</h1></br>I am instance <strong>#' + str(app_instance) + '</strong> serving application <strong>' + app_name + '</strong> with GUID <strong> ' + app_guid + ' !'
+content = '<h1>Hello World</h1>'
 content = Markup(content)
 
 @app.route('/')
