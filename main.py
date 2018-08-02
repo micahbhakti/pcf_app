@@ -25,8 +25,5 @@ def main():
     def hello_world():
         return render_template("index.html", bgcolor=COLOR, content=content)
 
-    if __name__ == '__main__':
-        app.run(host='0.0.0.0', port=port)
-
 if __name__ == '__main__':
-    main()
+    app.run(host='0.0.0.0', port=port)
