@@ -5,4 +5,4 @@ setup(
    version='1.0',
    description='applicaiton for pcf',
    author='Micah Bhakti',
-   author_email='micahbhakti@gmail.com',
+   author_email='micahbhakti@gmail.com'
