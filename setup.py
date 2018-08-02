@@ -6,5 +6,3 @@ setup(
    description='applicaiton for pcf',
    author='Micah Bhakti',
    author_email='micahbhakti@gmail.com',
-
-)
